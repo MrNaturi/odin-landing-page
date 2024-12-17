@@ -104,3 +104,39 @@ margin-left: auto;
 font-size: 20px;
 font-weight: 700;
 }
+#cta{
+    display: flex;
+    padding: 7.5% 20%;
+    align-items: center;
+    justify-content: center;
+}
+#blue {
+    background-color: #3882f6;
+    display: flex;
+    padding: 4% 10%;
+    border-radius: 8px;
+    color: #E5E7EB;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px; 
+    margin: 0 auto;
+    gap: 70px; 
+}
+
+button.signup {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    padding: 2px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text1{
+    font-weight: 800;
+}
+footer{
+    background-color: #1f2937;
+    padding: 3%;
+    text-align: center;
+    color: #E5E7EB;
+}

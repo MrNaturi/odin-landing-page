@@ -59,3 +59,28 @@ padding: 1% 10%;
 section p {
     margin: 0;
 }
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 20%;
+}
+#boxes{
+    display: flex;
+}
+.cont{
+    justify-content: center;
+    align-items: center;
+    margin: 2% 3%;
+    text-align: center;
+}
+.box{
+    border: 2px solid #3882f6;
+    height: 140%;
+    border-radius: 12px;
+}
+#inform{
+color: #1f2937;
+font-size:36px;
+font-weight: 900;
+}

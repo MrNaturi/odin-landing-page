@@ -63,7 +63,9 @@ section p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3% 20%;
+    padding: 1% 20%;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
 }
 #boxes{
     display: flex;
@@ -83,4 +85,22 @@ section p {
 color: #1f2937;
 font-size:36px;
 font-weight: 900;
+}
+#quote{
+    background-color: #E5E7EB;
+    padding: 5% 20%;
+    display: flex;
+    flex-direction: column;
+}
+.qoutetext{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+.author{
+margin-left: auto;
+font-size: 20px;
+font-weight: 700;
 }
